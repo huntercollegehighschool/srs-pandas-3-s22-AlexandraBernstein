@@ -1,8 +1,9 @@
 # 1. Import pandas
-
+import pandas as pd
 
 # 2. Read the "metacritic2.csv" file, and save the data in a dataframe variable. Print the data
-
+data = pd.read_csv("metacritic2.csv")
+print(data)
 
 
 
